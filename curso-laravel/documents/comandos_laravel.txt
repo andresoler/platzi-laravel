@@ -1,0 +1,50 @@
+#Laravel extender un layout
+#Desde el layout llamar con @yield('nombre del contenido')
+    <div class="container">
+        @yield('content')
+    </div>
+#desde el blade hija se @extends('nombre del layout.balde') y se agrega contenido dentro del @section('nombre del @yiel padre')
+@extends('layout.base')
+@section('content')
+#aqui va el contenido
+@endsection
+
+#middelware son capaz que contienen request
+http-kernel.php
+
+#findOrFail regresa 404 si el usuario accede a editar o eliminar un elemento que no existe
+
+#validaciones
+#permite agregar require con alertas de los campos requeridos
+#en el controlador
+        $valiData = $request->validate([
+           'title' => 'required|min:3'
+        ]);
+
+
+        $report = new ExpenseReport();
+        $report->title = $valiData['title'];
+        $report->save();
+#en la vista se se valida $errors->any() y se recorre $errors->all()
+            @if($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach($errors->all() as $error)
+                            <li>
+                                {{$error}}
+                            </li>
+                            @endforeach
+                    </ul>
+                </div>
+                @endif
+#se agrega el value old del campo a recuperar para que cuando se haga envio del formulario no se pierda la informacion
+<input type="text" class="form-control" id="title" name="title" placeholder="Type a title" value="{{old('title')}}">
+
+#model baiding sin usar el findOrFail
+    public function show(ExpenseReport $expenseReport)
+    {
+        return view('expenseReport.show',[
+           'report' => $expenseReport
+        ]);
+    }
+

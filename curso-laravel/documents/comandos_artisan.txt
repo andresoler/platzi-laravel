@@ -1,0 +1,21 @@
+# Se crea una migracion nueva para agregar columna a tabla
+php artisan make:migration create_column_title_in_reports --table=expense_reports
+
+#Se reinician todas las migraciones
+php artisan migrate:fresh
+
+#Crear reporte con TINKER
+php artisan tinker
+$report = new App\ExpenseReport();
+$report->title = 'Vacaciones';
+$report->save();
+App\expenseReport::all();
+
+#Crear controlador con artisan
+php artisan make:controller ExpenseReportController --resource
+
+#Listar todas las rutas
+php artisan route:list
+
+#iniciar servidor artisan
+php artisan serve
