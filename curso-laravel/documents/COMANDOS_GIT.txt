@@ -55,7 +55,10 @@ git remote set-url origin git@github
 git show-branch (Muestra rammas existentes y su historia)
 git show-branch --all (muestra todas las ramas y su historia)
 gitk (Muestra programa forma grafica)
-
+git branch header (Se crean ramas)
+git branch footer
+git push origin header (Se envian ramas)
+git push origin footer
 
 
 
