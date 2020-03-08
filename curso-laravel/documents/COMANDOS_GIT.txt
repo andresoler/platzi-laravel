@@ -64,7 +64,7 @@ git push origin footer
 git remote -v (Se ven los repositorios)
 git remote add upstream https....test.com.github
 git pull upstream master (la rama mastes esta en repositorio origin)
-=======
+
 #Configurar múltiples colaboradores en un repositorio de GitHub
 1. Desde github - Settings - Manage Access - Invite collaborates
 
