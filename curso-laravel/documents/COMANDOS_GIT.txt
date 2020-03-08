@@ -51,6 +51,14 @@ ssh-add -/.ssh/id_rsa
 git remote -v
 git remote set-url origin git@github
 
+#Manejo de ramas
+git show-branch (Muestra rammas existentes y su historia)
+git show-branch --all (muestra todas las ramas y su historia)
+gitk (Muestra programa forma grafica)
+
+
+
+
 
 
 
