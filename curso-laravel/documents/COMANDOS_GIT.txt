@@ -20,6 +20,12 @@ git commit "ESC SHIFT + Z + Z se utiliza para salir de la consola y guardar el c
 git diff "nombre del archivo"
 git log (muestra todos los cambios)
 git log --stat (muestra las lineas insertadas en bytes)
+git log --all --graph --decorate --oneline (muestra commit de forma grafica y ordenada)
+alias arbolito="git log --all --graph --decorate --oneline"
+git tag -a v0.1 -m "mi primera version" 0345a96 (Se crean tags versionamiento en github releases)
+git push origin --tags (se envian tags a github)
+git tag -d dormido (Se eliminan tags localmente)
+git push origin :refs/tags/dormido (Se eliminan tags de github)
 git reset 8ccef657896365cb851315e292fc7ca694333d8e --hard (volver a una version antigua agresiva)
 q (salir)
 git checkout

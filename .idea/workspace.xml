@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="968c97e3-ea5a-4ae0-8beb-682457622de7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-laravel/documents/COMANDOS_GIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/curso-laravel/documents/COMANDOS_GIT.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,9 +116,12 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/curso-laravel/resources/views/expenseReport" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\Platzi-Laravel\curso-laravel\documents" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\laragon\www\Platzi-Laravel\curso-laravel\resources\views\expenseReport" />
       <recent name="C:\laragon\www\Platzi-Laravel\curso-laravel\resources\views\expense" />
@@ -151,6 +155,10 @@
       <workItem from="1582591017118" duration="9367000" />
       <workItem from="1582683081972" duration="708000" />
       <workItem from="1582766230433" duration="2236000" />
+      <workItem from="1582772992765" duration="792000" />
+      <workItem from="1582895672152" duration="20000" />
+      <workItem from="1583457069312" duration="3493000" />
+      <workItem from="1583624817133" duration="1493000" />
     </task>
     <servers />
   </component>
@@ -162,7 +170,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
