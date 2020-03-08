@@ -60,6 +60,11 @@ git branch footer
 git push origin header (Se envian ramas)
 git push origin footer
 
+# Realizar pull en repositorios diferentes
+git remote -v (Se ven los repositorios)
+git remote add upstream https....test.com.github
+git pull upstream master (la rama mastes esta en repositorio origin)
+=======
 #Configurar múltiples colaboradores en un repositorio de GitHub
 1. Desde github - Settings - Manage Access - Invite collaborates
 
