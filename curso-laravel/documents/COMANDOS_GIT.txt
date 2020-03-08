@@ -68,7 +68,8 @@ git pull upstream master (la rama mastes esta en repositorio origin)
 #Configurar múltiples colaboradores en un repositorio de GitHub
 1. Desde github - Settings - Manage Access - Invite collaborates
 
-
+#Haciendo deployment a un servidor
+Jenkis y Travis CI (Conectan github con un servidor, que al hacer push se ve en linea)
 
 
 
