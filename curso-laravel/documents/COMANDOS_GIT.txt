@@ -56,7 +56,10 @@ git show-branch (Muestra rammas existentes y su historia)
 git show-branch --all (muestra todas las ramas y su historia)
 gitk (Muestra programa forma grafica)
 
-
+# Realizar pull en repositorios diferentes
+git remote -v (Se ven los repositorios)
+git remote add upstream https....test.com.github
+git pull upstream master (la rama mastes esta en repositorio origin)
 
 
 
