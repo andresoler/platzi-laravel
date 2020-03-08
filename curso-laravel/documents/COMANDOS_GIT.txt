@@ -60,6 +60,9 @@ git branch footer
 git push origin header (Se envian ramas)
 git push origin footer
 
+#Configurar múltiples colaboradores en un repositorio de GitHub
+1. Desde github - Settings - Manage Access - Invite collaborates
+
 
 
 
