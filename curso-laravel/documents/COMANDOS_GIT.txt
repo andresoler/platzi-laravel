@@ -83,8 +83,11 @@ andresoler.github.io
 #En settings GitHub Pages se agrega el merge a master
 #genera un link de acceso https://andresoler.github.io/.
 
-
-
+#Git Stash: Guardar cambios en memoria y recuperarlos después
+git stash (guarda en memoria lo que tu quieras)
+git stash list (lista todos los stash realizados)
+git pop (Se agrega el contenido en memoria en la rama que quiera (cualquiera))
+git stash
 
 
 
