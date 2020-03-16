@@ -71,6 +71,9 @@ git pull upstream master (la rama mastes esta en repositorio origin)
 #Haciendo deployment a un servidor
 Jenkis y Travis CI (Conectan github con un servidor, que al hacer push se ve en linea)
 
+#Editor del readme.md github
+https://pandao.github.io/editor.md/en.html
+
 
 
 
