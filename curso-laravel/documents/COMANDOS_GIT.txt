@@ -87,7 +87,7 @@ andresoler.github.io
 git stash (guarda en memoria lo que tu quieras)
 git stash list (lista todos los stash realizados)
 git pop (Se agrega el contenido en memoria en la rama que quiera (cualquiera))
-git stash
+git stash branch nombre_nueva_rama (A esta rama se va el contenido almacenado en memoria)
 
 
 
