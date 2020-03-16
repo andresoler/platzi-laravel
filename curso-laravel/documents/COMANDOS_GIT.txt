@@ -91,6 +91,7 @@ andresoler.github.io
 
 
 
+
 Git reset y git rm son comandos con utilidades muy diferentes, pero a�n as� se confunden muy f�cilmente.
 
 git rm
