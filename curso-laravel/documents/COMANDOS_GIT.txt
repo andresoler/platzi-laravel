@@ -74,6 +74,14 @@ Jenkis y Travis CI (Conectan github con un servidor, que al hacer push se ve en 
 #Editor del readme.md github
 https://pandao.github.io/editor.md/en.html
 
+#Tu sitio web público con GitHub Pages
+https://pages.github.com/
+#crear repositorio en github para una pagina publica
+#Se crea un nuevo repositorio en settings de github
+#Nombre:
+andresoler.github.io
+#En settings GitHub Pages se agrega el merge a master
+#genera un link de acceso https://andresoler.github.io/.
 
 
 
