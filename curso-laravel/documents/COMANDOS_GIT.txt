@@ -106,7 +106,9 @@ git commit --amend (remendar commits)
 git reflog (muestra todo el log, incluye ramas eliminadas)
 git reset --HARD df0e19f (recupera todos los archivos eliminados en este punto de esta rama)
 
-
+#Buscar en archivos y commits de Git con Grep y log
+git grep -n platzi (buscar palabra en archivos)
+git log -S "tester" (busca ramas con la palabra tester)
 
 
 
