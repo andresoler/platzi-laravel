@@ -102,6 +102,18 @@ git cherry-pick 2ae3327 (devolverme a un merge anterior con los cambios realizad
 #Reconstruir commits en Git con amend
 git commit --amend (remendar commits)
 
+#Git Reset y Reflog: Úsese en caso de emergencia
+git reflog (muestra todo el log, incluye ramas eliminadas)
+git reset --HARD df0e19f (recupera todos los archivos eliminados en este punto de esta rama)
+
+
+
+
+
+
+
+
+
 Git reset y git rm son comandos con utilidades muy diferentes, pero a�n as� se confunden muy f�cilmente.
 
 git rm
