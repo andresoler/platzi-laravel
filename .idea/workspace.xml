@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b50a2d5e-70d1-49c6-abda-e3bc8e61cf69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/curso-laravel/documents/COMANDOS_GIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/curso-laravel/documents/COMANDOS_GIT.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -141,7 +142,7 @@
       <updated>1584325695720</updated>
       <workItem from="1584325699817" duration="1002000" />
       <workItem from="1584362693738" duration="29000" />
-      <workItem from="1584836641977" duration="2032000" />
+      <workItem from="1584836641977" duration="3777000" />
     </task>
     <servers />
   </component>
