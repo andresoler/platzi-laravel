@@ -33,6 +33,8 @@ git clone url
 git show
 git branch
 git branch nombreRama
+git branch -r (muestras las ramas del servidor)
+git branch -a (muestra ramas locales y servidor)
 git checkout nombreRama
 git merge NombreRama
 git commit -am "mesnaje" (fusion entre el git add . y el git commit)
@@ -106,10 +108,18 @@ git commit --amend (remendar commits)
 git reflog (muestra todo el log, incluye ramas eliminadas)
 git reset --HARD df0e19f (recupera todos los archivos eliminados en este punto de esta rama)
 
+#Buscar en archivos y commits de Git con Grep y log
+git grep -n platzi (buscar palabra en archivos)
+git log -S "tester" (busca ramas con la palabra tester)
 
-
-
-
+#Comandos y recursos colaborativos en Git y Github
+git shortlog -sn --all --no-merges (muestra cuantos commits ha enviado sin merge una persona o colaborador)
+git config --global alias.stats "shortlog -sn --all --no-merges" (creo un comando nuevo local para el comando entre comillas "")
+git stats (ejecuta el comando stats creado )
+git blame blogstpots.html (muestra linea por liena los cambios realizados por cada persona)
+git blame -c blogstpots.html (muestra mas organizado)
+git blame --help (muestra ayudas del comando)
+git blame blogstpots.html -l35,53 (muestra los cambios realizados desde la linea 35 a la 53)
 
 
 
