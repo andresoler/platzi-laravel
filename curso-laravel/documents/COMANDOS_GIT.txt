@@ -90,6 +90,9 @@ git pop (Se agrega el contenido en memoria en la rama que quiera (cualquiera))
 git stash branch nombre_nueva_rama (A esta rama se va el contenido almacenado en memoria)
 git stash drop (elimina contenido de la memoria temporal)
 
+#Git Clean: Limpiar tu proyecto de archivos no deseados
+git clean --dry-run (solo elimina archivos, no carpetas o archivos de .gitignore)
+git clean -f (elimina archivos)
 
 
 
