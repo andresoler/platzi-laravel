@@ -102,8 +102,6 @@ git cherry-pick 2ae3327 (devolverme a un merge anterior con los cambios realizad
 
 
 
-
-
 Git reset y git rm son comandos con utilidades muy diferentes, pero a�n as� se confunden muy f�cilmente.
 
 git rm
