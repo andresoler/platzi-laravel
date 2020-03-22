@@ -94,7 +94,10 @@ git stash drop (elimina contenido de la memoria temporal)
 git clean --dry-run (solo elimina archivos, no carpetas o archivos de .gitignore)
 git clean -f (elimina archivos)
 
+git log --oneline (Se visualiza log de todas las ramas)
 
+#Git cherry-pick: Traer commits viejos al head de un branch
+git cherry-pick 2ae3327 (devolverme a un merge anterior con los cambios realizados en este merge)
 
 
 
